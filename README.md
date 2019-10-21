@@ -1,2 +1,2 @@
-# AlgorithmCompetitionCode
-Algorithm Competition Code
+# CodeForces code
+
