@@ -4,3 +4,5 @@ test*.*
 temp*.*
 .vscode/
 tmp*.*
+update.cmd
+
