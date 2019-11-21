@@ -6,3 +6,5 @@ temp*.*
 tmp*.*
 update.cmd
 prettyprint.hpp
+update.sh
+
