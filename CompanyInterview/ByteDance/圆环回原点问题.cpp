@@ -22,7 +22,8 @@ public:
         dp[0][0] = 1;
         for (int i = 1; i < n + 1; ++i) {
             for (int j = 0; j < circularNodeNum; ++j) {
-                dp[i][j] = dp[i - 1][(j - 1 + circularNodeNum) % circularNodeNum] + dp[i - 1][(j + 1) % circularNodeNum];
+                dp[i][j] = dp[i - 1][(j - 1 + circularNodeNum) % circularNodeNum] 
+                            + dp[i - 1][(j + 1) % circularNodeNum];
             }
         }
         return dp[n][0];
